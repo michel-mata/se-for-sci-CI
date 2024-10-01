@@ -34,4 +34,4 @@ jobs:
       - name: Intall package and test deps
         run: pip install -e .[test]
 
-      - run: pytest 
+      - run: pytest
