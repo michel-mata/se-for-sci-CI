@@ -8,9 +8,7 @@ on:
 
 jobs:
   tests:
-    runs-on:
-      - ubuntu-latest
-      - macOS-latest
+    runs-on: macOS-latest
     steps:
       - uses: actions/checkout@v4
 
